@@ -25,6 +25,7 @@
 				  "wt.event_type": "CREDIT_CARD_FORM_VIEW",
 				}
 			  });
+			  localStorage.setItem('cc_form_abandon_flag', 'true');
 			}
 			
 			// Call after 10 seconds
@@ -34,6 +35,7 @@
 				  "wt.event_type": "CREDIT_CARD_FORM_10s",
 				}
 			  });
+			  localStorage.setItem('cc_form_abandon_flag', 'false');
 			}
 			
 			// Submit the form data. Called on the button click.
