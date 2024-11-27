@@ -46,7 +46,7 @@
 				  "user.afm": document.getElementById('afm').value,
 				  "user.email_address": document.getElementById('email').value,
 				  "user.hashed_SHA256_email": CryptoJS.SHA256(document.getElementById('email').value).toString(CryptoJS.enc.Hex),
-				  "wt.dcsvid": CryptoJS.SHA256(document.getElementById('email').value).toString(CryptoJS.enc.Hex),
+				  //"wt.dcsvid": CryptoJS.SHA256(document.getElementById('email').value).toString(CryptoJS.enc.Hex),
 				  "user.creditcard_type": document.getElementById('creditcardtype').value,
 				  "user.creditcard_limit": document.getElementById('creditcardlimit').value
 				}
